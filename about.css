@@ -1,0 +1,153 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Josefin sans' , sans-serif;
+ box-sizing: border-box;
+
+
+
+
+
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color:black;
+    
+
+}
+ .about img{
+
+     height: auto;
+     width: 420px;
+     
+
+
+
+
+}
+.about-text{
+  width: 550px;
+
+
+}
+
+.main{
+   width: 1130px;
+   max-width: 95%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+
+
+}
+.about-text h4{
+   color: white;
+   font-size: 50px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+
+
+
+
+}
+
+
+.about-text h5{
+   color: white;
+   
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+
+.about-text p{
+   color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+   text-transform: capitalize;
+   margin-bottom: 45px;
+   font-size: 18px;
+
+
+
+}
+
+button{
+  background:darkgoldenrod;
+  color: floralwhite;
+  text-decoration: none;
+  border: 3px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px ;
+  border-radius: 30px;
+}
+
+
+span{ 
+
+	color:silver;
+  
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+ul{
+
+	list-style: none;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+
+
+.footer{
+
+
+background-color: darkgoldenrod;
+	width: auto;
+  margin: 20px;
+  
+}
+
+.footer-column{
+   width: 40%;
+   padding: 10px 25px;
+   font-size: 18px;
+  
+margin-top: 10px;
+    text-transform: capitalize;
+   
+  
+    
+
+
+}
+.footer-column a i{
+  color: black;
+}
+.footer-column ul li a{
+  color: black;
+}
+.footer-column h4{
+    font-size: 18px;
+    color:black;
+    text-transform: capitalize;
+   
+
+
+
+
+
+}

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Owl Carousel css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Owl Carousel css-->
+
+
+  <!-- jquery css-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- jquery css-->
+
+</head>
+
+<body>
+  <section class="home">
+    <div class="headerbg ">
+      <header>
+        <div class="container ">
+          <div class="navbar flex1">
+            <div class="logo">
+              <img  src="image/logos.png"    alt="">
+            
+            </div>
+
+            <nav>
+              <ul id="menuitem">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Movies</a></li>
+                <li><a href="About.html">About Us</a></li>
+            
+                <li><a href="login.html">SIGN IN</a></li>
+              
+              </ul>
+            </nav>
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+
+           
+          </div>
+        </div>
+      </header>
+
+      <div class="home_content mtop">
+        <div class="container">
+          <div class="left">
+            <h1>Morbius</h1>
+
+            <div class="time flex">
+              <label>R</label>
+              <i class="fas fa-circle"></i>
+              <span>1hrs 50mins</span>
+              <i class="fas fa-circle"></i>
+              <p>2021</p>
+              <i class="fas fa-circle"></i>
+              <button>Action</button>
+            </div>
+
+            <p>
+              Dangerously ill with a rare blood disorder and determined to save others suffering his same fate, Dr. Morbius attempts a desperate gamble. While at first it seems to be a radical success, a darkness inside him is unleashed. Will good override evil -- or will Morbius succumb to his mysterious new urges?
+            </p>
+            <div class="button flex">
+      
+             <a href="m-description.html"> <i id="palybtn" class="fas fa-play"></i></a>
+              <p>WATCH TRAILER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuitem.style.maxHeight == '0px') {
+        menuitem.style.maxHeight = "200px"
+      } else {
+        menuitem.style.maxHeight = "0px"
+      }
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 50);
+    })
+  </script>
+
+
+
+  <section class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Trendings</h2>
+        <button>MORE VIDEO</button>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/movie15.jpg" alt="">
+              <div class="icon">
+              
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+  
+            </div>
+            <div class="text">
+              <h3>Mortal engine</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/movie15.jpg" alt="">
+              <div class="icon">
+             
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+             
+            </div>
+            <div class="text">
+              <h3>Mortal engine</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/movie15.jpg" alt="">
+              <div class="icon">
+                
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+       
+            </div>
+            <div class="text">
+              <h3>Mortal engine</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/movie15.jpg" alt="">
+              <div class="icon">
+             
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+        
+            </div>
+            <div class="text">
+              <h3>Mortal engine</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/m2.jpg" alt="">
+              <div class="icon">
+          
+                <i class="fas fa-plus"></i>
+                <i class="fas "></i>
+              </div>
+            </div>
+
+            <div class="content">
+      
+            </div>
+            <div class="text">
+              <h3>Morbius</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/m2.jpg" alt="">
+              <div class="icon">
+            
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+           
+            </div>
+            <div class="text">
+              <h3>Morbius</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Trendings</h2>
+        <button>Book your seat</button>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/m2.jpg" alt="">
+              <div class="icon">
+             
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+              
+            </div>
+            <div class="text">
+              <h3>Morbius</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img href="m-description.html" src="image/m2.jpg" alt="">
+              <div class="icon">
+            
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+       
+            </div>
+            <div class="text">
+              <h3>Morbius</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/m2.jpg" alt="">
+              <div class="icon">
+                
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+              
+            </div>
+            <div class="text">
+              <h3>Morbius</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/m2.jpg" alt="">
+              <div class="icon">
+                
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+
+            <div class="content">
+              
+            </div>
+            <div class="text">
+              <h3>Morbius</h3>
+              <div class="time flex">
+                <span>1hrs 50mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <!-- Owl Carousel -->
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      responsive: {
+        411: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+
+
+
+
+
+  <section class="new_realase top">
+    <div class="container">
+      <div class="owl-carousel owl-carousel2 owl-theme">
+        <div class="items">
+          <div class="left">
+            <div class="img">
+              <img src="image/movie15.jpg" alt="">
+            </div>
+            <div class="heading">
+              <h2> <span></span> NEW REALEASE</h2>
+              <h1>Mortal engine</h1>
+            </div>
+            <div class="time flex">
+              <label>R</label>
+              <i class="fas fa-circle"></i>
+              <span>1hrs 50mins</span>
+              <i class="fas fa-circle"></i>
+              <a class="flex1"><img src="https://img.icons8.com/color/95/000000/imdb.png" /> 8.5</a>
+              <i class="fas fa-circle"></i>
+              <p>2021</p>
+              <i class="fas fa-circle"></i>
+              <button>Action</button>
+            </div>
+
+            <p>
+              Mortal Engines is a young-adult science fantasy novel by Philip Reeve, published by Scholastic UK in 2001. The book focuses on a futuristic, steampunk version of London, now a giant machine striving to survive on a world that is running out of resources.
+            </p>
+
+            <div class="button flex">
+             
+              <i id="palybtn" class="fas fa-play"></i>
+              <p> WATCH TRAILER</p>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+        
+    </div>
+  
+  </section>
+
+  <script>
+    $('.owl-carousel2').owlCarousel({
+      loop: true,
+      margin: 20,
+      dots: true,
+      items: 1
+    })
+  </script>
+
+
+
+  
+
+ 
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      responsive: {
+        414: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+
+
+  <footer>
+    <div class="container mtop">
+      <div class="box">
+        <div class="logo">
+          <img src="image/logos.png">
+        </div>
+        <p>  Century Play facilities have been designed with all of the family in mind to ensure maximum fun and excitement.</p>
+        <div class="icon">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-youtube-square"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Explore</h2>
+        <div class="flex">
+          <ul>
+            <li>Home</li>
+           
+          </ul>
+          <ul class="ul">
+            <li>Movie</li>
+            
+          </ul>
+        </div>
+      </div>
+
+      <div class="box ">
+        <h2>Company</h2>
+        <div class="flex">
+          <ul>
+            <li>Company</li>
+          
+            <li>Contact us</li>
+           
+          </ul>
+          <ul class="ul">
+            <li>Privacy Policy</li>
+            <li>Helps Center</li>
+           
+            <li>FAQ</li>
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+    <p class="legal">Copyright (c) 2021 Copyright Holder All Rights Reserved | This template is made By <i class="fas fa-heart"></i> </p>
+  </footer>
+</body>
+
+</html>

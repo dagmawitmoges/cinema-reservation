@@ -19,6 +19,7 @@ let value3=Number.parseInt(localStorage.getItem('NormalSeatsIndex'));
 
 let value = Number.parseInt(localStorage.getItem('ticketPrice'));
 document.writeln("<br>"+ "Total Price :"+value);
+
 // let p = document.createElement('p');
 // p.innerText = value
 // document.body.append(p)

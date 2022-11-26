@@ -111,6 +111,7 @@
 </div>
   </body>
   <?php
+  $id = $_GET['id'];
   $firstName = $_POST['firstName'];
   $lastName = $_POST['lastName'];
   $gender = $_POST['gender'];

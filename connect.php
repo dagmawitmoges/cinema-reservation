@@ -5,6 +5,23 @@
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 	$phoneNumber = $_POST['phoneNumber'];
+	echo($firstName);
+	function password_check($pass){
+		if(strlen($pass) < 5){
+			return "password is short";
+		} else {
+			return "password is correct";
+		}
+	}
+
+	function null_field_check($firstName, $lastName, $gender, $email, $password, $phoneNumber){
+		if ($firstName == '' || $lastName == '' || $gender == '' || $email == '' || $password == '' || $phoneNumber == '') {
+			return "you have missing field/s";
+		} else{
+			return "all required fields exist";
+		}
+	}
+   
 
 	// Database connection
 	$conn = new mysqli('localhost','root','','cinema');
@@ -17,7 +34,9 @@
 		$execval = $stmt->execute();
 		echo $execval;
 		echo "Registration successfully...";
-		$stmt->close();
-		$conn->close();
+		
+	header("Location: maincinema.html");
+    $stmt->close();
+    $conn->close();
 	}
 ?>

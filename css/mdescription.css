@@ -118,7 +118,7 @@ justify-content: space-between;
 
     border-radius: 15px;
     width: 100px;
-    background-color: lightslategrey;
+    background-color: #221F1F;
 
 }
 .btn2 a{
@@ -179,7 +179,7 @@ ul{
 
      height: 110px;
     padding: 40px ;
-   background-color:grey;
+   background-color:#221F1F;
    display: inline block;
 
 }
@@ -223,3 +223,4 @@ word-spacing: 10px;
 }
 
 
+ 
